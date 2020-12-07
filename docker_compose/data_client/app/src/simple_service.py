@@ -1,7 +1,7 @@
 import os
 import socketserver
 from http import HTTPStatus
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse
 
 import psycopg2
 from msgpack import packb, unpackb
